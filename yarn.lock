@@ -1117,6 +1117,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@glimmer/interfaces@npm:^0.87.1":
+  version: 0.87.1
+  resolution: "@glimmer/interfaces@npm:0.87.1"
+  dependencies:
+    "@simple-dom/interface": ^1.4.0
+  checksum: 5218fd6b555fa33be4673fed43f42e81c7490aaa081461ac6fbca8b18230ba3e3a96932386d5a6890ce1ef85687bf1911b0e2a8c7d905b023cafacb8e52fb289
+  languageName: node
+  linkType: hard
+
 "@glimmer/reference@npm:0.84.3":
   version: 0.84.3
   resolution: "@glimmer/reference@npm:0.84.3"
@@ -1130,15 +1139,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@glimmer/syntax@npm:0.84.3":
-  version: 0.84.3
-  resolution: "@glimmer/syntax@npm:0.84.3"
+"@glimmer/syntax@npm:0.87.1":
+  version: 0.87.1
+  resolution: "@glimmer/syntax@npm:0.87.1"
   dependencies:
-    "@glimmer/interfaces": 0.84.3
-    "@glimmer/util": 0.84.3
+    "@glimmer/interfaces": ^0.87.1
+    "@glimmer/util": ^0.87.1
+    "@glimmer/wire-format": ^0.87.1
     "@handlebars/parser": ~2.0.0
     simple-html-tokenizer: ^0.5.11
-  checksum: afadea62f1c54735df723120a94f4da3cb663d762be1c9b130f8d22584ccc93a037198b60759706d3cf0d3658268170eae687dfdc7cb21e5c0a9af7005ebc727
+  checksum: 887ea4a4c975d9ae0d48b17725d55b5c6c886b49356d73ab60d322f5aa91fa8c7a3544f7f877babbf656c924e4655a75480d408e253f3a13200398522986d56f
   languageName: node
   linkType: hard
 
@@ -1153,6 +1163,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@glimmer/util@npm:^0.87.1":
+  version: 0.87.1
+  resolution: "@glimmer/util@npm:0.87.1"
+  dependencies:
+    "@glimmer/env": 0.1.7
+    "@glimmer/interfaces": ^0.87.1
+  checksum: c3f74f6e00d8f5b7391f3c26921bb56b1c220afe2703164f1579a45dc6f154b7671e045729e0a36b8bd5ad28cdf045ef79a77e87a11905054b536f55e7fe83d1
+  languageName: node
+  linkType: hard
+
 "@glimmer/validator@npm:0.84.3":
   version: 0.84.3
   resolution: "@glimmer/validator@npm:0.84.3"
@@ -1160,6 +1180,16 @@ __metadata:
     "@glimmer/env": ^0.1.7
     "@glimmer/global-context": 0.84.3
   checksum: 58ac3c49a1a601de8271cfcc0f27415fa2388283ae90dd2b4f785f5ab44fa12506c8b32cfc6c74d69bb60ca27745b4f6707fec07a8dff78f2d9da9f9aecc2afa
+  languageName: node
+  linkType: hard
+
+"@glimmer/wire-format@npm:^0.87.1":
+  version: 0.87.1
+  resolution: "@glimmer/wire-format@npm:0.87.1"
+  dependencies:
+    "@glimmer/interfaces": ^0.87.1
+    "@glimmer/util": ^0.87.1
+  checksum: 0695a515b5c45c9cea78ecceeb5ee47dc76c59601c5594a7294af309037cf704e1d6007b26173c75503e58b58649ff8275986d7b8a98663033874c6ddd956c79
   languageName: node
   linkType: hard
 
@@ -4244,7 +4274,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -7139,7 +7169,7 @@ __metadata:
     "@babel/parser": 7.22.16
     "@babel/types": 7.22.11
     "@glimmer/reference": 0.84.3
-    "@glimmer/syntax": 0.84.3
+    "@glimmer/syntax": 0.87.1
     "@iarna/toml": 2.2.5
     "@prettier/is-es5-identifier-name": 0.2.0
     "@prettier/parse-srcset": 3.1.0
@@ -7587,7 +7617,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.22.2#~builtin<compat/resolve>":
   version: 1.22.3
-  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.3#~builtin<compat/resolve>::version=1.22.3&hash=07638b"
   dependencies:
     is-core-module: ^2.12.0
     path-parse: ^1.0.7
@@ -7600,7 +7630,7 @@ __metadata:
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -8557,11 +8587,11 @@ __metadata:
 
 "typescript@patch:typescript@5.2.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 0f4da2f15e6f1245e49db15801dbee52f2bbfb267e1c39225afdab5afee1a72839cd86000e65ee9d7e4dfaff12239d28beaf5ee431357fcced15fb08583d72ca
+  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
   languageName: node
   linkType: hard
 
