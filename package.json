@@ -117,7 +117,7 @@
     "@typescript-eslint/eslint-plugin": "6.7.0",
     "benchmark": "2.1.4",
     "browserslist-to-esbuild": "1.2.0",
-    "c8": "8.0.1",
+    "c8": "10.0.0",
     "cross-env": "7.0.3",
     "cspell": "7.3.5",
     "enquirer": "2.4.1",
