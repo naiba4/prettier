@@ -22,8 +22,8 @@
     "concurrently": "8.2.1",
     "docusaurus": "1.14.7",
     "js-yaml": "4.1.0",
-    "rimraf": "5.0.1",
-    "webpack": "5.88.2",
+    "rimraf": "6.1.1",
+    "webpack": "5.104.1",
     "webpack-cli": "5.1.4"
   },
   "packageManager": "yarn@3.6.3"
